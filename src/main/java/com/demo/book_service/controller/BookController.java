@@ -22,8 +22,7 @@ public class BookController {
 
     @PostMapping("/books")
     public BookEntity addBook(@RequestBody BookEntity book){
-        BookEntity b = bookRepository.save(book);
-        return b;
+        return bookRepository.save(book);
     }
 
     @GetMapping("/books/{bid}")
