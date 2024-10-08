@@ -18,6 +18,7 @@ public class BookEntity {
         return BookId;
     }
 
+
     public void setBookId(int bookId) {
         BookId = bookId;
     }
